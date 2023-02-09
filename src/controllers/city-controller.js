@@ -1,4 +1,4 @@
-const {CityService, CityService} = require('../services/index');
+const {CityService} = require('../services/index');
 /**
  * POST
  * data -> req.body
@@ -80,7 +80,7 @@ const update = async (req , res) => {
          success:true,
          message:'Sucessfully updated a city',
          err:{}
-        });
+        });0
     } 
     catch(error){
       console.log(error);
